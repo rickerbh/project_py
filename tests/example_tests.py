@@ -7,5 +7,5 @@ class MyTests(unittest.TestCase):
         pass
     
     def run_a_test(self):
-        assert False
+        assert_equal(True, False)
         
